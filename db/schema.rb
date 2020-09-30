@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_30_173100) do
+ActiveRecord::Schema.define(version: 2020_09_30_174742) do
 
   create_table "exhibitions", force: :cascade do |t|
     t.string "address_street"
@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 2020_09_30_173100) do
     t.string "title"
     t.date "date_start"
     t.date "date_end"
-    t.date "occurences"
     t.string "contact_url"
     t.string "address_name"
     t.string "contact_twitter"
@@ -39,6 +38,11 @@ ActiveRecord::Schema.define(version: 2020_09_30_173100) do
     t.string "address_zipcode"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "average_rating"
+    t.integer "rating_count"
+    t.integer "external_id"
+    t.string "full_address"
+    t.json "occurences"
   end
 
 end
