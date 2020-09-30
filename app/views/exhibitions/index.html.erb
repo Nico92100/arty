@@ -1,0 +1,9 @@
+<h1> Exhibitions </h1>
+<ol>
+<% @exhibitions.each do |exhibition|%>
+<li><%= exhibition.capitalize%></li>
+<%end%>
+</ol>
+
+<%= link_to 'home', root_path %>
+
