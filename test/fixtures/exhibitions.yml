@@ -1,0 +1,53 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  address_street: MyString
+  latitude: 1.5
+  longitude: 1.5
+  category: MyString
+  title: MyString
+  date_start: 2020-09-30
+  date_end: 2020-09-30
+  occurences: 2020-09-30
+  contact_url: MyString
+  address_name: MyString
+  contact_twitter: MyString
+  contact_phone: MyString
+  description: MyText
+  tags: MyString
+  contact_mail: MyString
+  lead_text: MyString
+  cover_url: MyString
+  contact_facebook: MyString
+  cover_credit: MyString
+  adress_city: MyString
+  price_detail: MyString
+  price_type: MyString
+  date_description: MyString
+  address_zipcode: MyString
+
+two:
+  address_street: MyString
+  latitude: 1.5
+  longitude: 1.5
+  category: MyString
+  title: MyString
+  date_start: 2020-09-30
+  date_end: 2020-09-30
+  occurences: 2020-09-30
+  contact_url: MyString
+  address_name: MyString
+  contact_twitter: MyString
+  contact_phone: MyString
+  description: MyText
+  tags: MyString
+  contact_mail: MyString
+  lead_text: MyString
+  cover_url: MyString
+  contact_facebook: MyString
+  cover_credit: MyString
+  adress_city: MyString
+  price_detail: MyString
+  price_type: MyString
+  date_description: MyString
+  address_zipcode: MyString
